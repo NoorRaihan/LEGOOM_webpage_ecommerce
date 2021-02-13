@@ -1,0 +1,250 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="topnav">
+            <header>
+                <h1 class="title-nav">ANIMAXION</h1>
+                <button id="contact_btn" class="contact_btn">CONTACT US</button>
+                <nav class="navbaru">
+                        <ul class="navlist">
+                            <li class="list"><a class="nav-text" href="#home">HOME</a></li>
+                            <li class="list"><a class="nav-text" href="#about">ABOUT US</a></li>
+                            <li class="list"><a class="nav-text" href="#products">PRODUCTS</a></li>
+                            <li class="list"><a class="nav-text" href="#reviews">REVIEWS</a></li>
+                        </ul>  
+                </nav>
+            </header>
+        </section>
+
+        <section class="mb-nav">
+          <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="p-4">
+                <ul class="menu-link">
+                  <li><a class="nav-text2" href="#about">ABOUT US</a></li>
+                  <li><a class="nav-text2" href="#products">PRODUCTS</a></li>
+                  <li><a class="nav-text2" href="#reviews">REVIEWS</a></li>
+                  <li><a class="nav-text2" id ="contact_mb" href="javascript:void(0)" onclick="contactmb()">CONTACT US</a></li>
+                </ul>
+              </div>
+            </div>
+            <nav class="navvs navbar navbar-dark" style="height:10%;">
+              <button class="butonbaru navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div>
+        </section>
+
+        <section id="contact"class="contact">
+          <div id="contactside" class="contactside">
+            <button type="button" id="btn-close" class="btn-close btn-close-white" aria-label="Close"></button>
+            <h1 class="contact-title text-responsive" >CONTACT US</h1>
+            <div class="forms">
+              <form target="print_popup" onsubmit="" name="form" action="https://formspree.io/f/xrgoorzr" method="POST" onsubmit="return validateForm()">
+                <div class="form-group" style="text-align: left;">
+                    <label for="name">Email: </label>
+                    <input class="form-control" type="text" id="name" name="_replyto">
+                <div class="form-group">
+                    <label for="subject">Subjects: </label>
+                    <input class="form-control" type="text" id="subject" name="_subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea class="form-control textareas" name="message" rows="10" cols="50"></textarea>
+                </div>
+                <input class="buton" type="submit" name="submit">
+                <input class="buton" type="Reset" name="reset" onclick="resetform()">
+            </form>
+            </div>
+          </div>
+        </section>
+        
+        <section id="home"class="sliders">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://entropia.qodeinteractive.com/wp-content/uploads/2018/08/h1-slider1-background-img.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://entropia.qodeinteractive.com/wp-content/uploads/2018/08/h1-slider2-background-img.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://entropia.qodeinteractive.com/wp-content/uploads/2018/08/h1-slider3-background-img.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+
+          <div class="main-text hidden-xs">
+            <div class="col-md-12 text-center">
+                <h1>WELCOME TO ANIMAXION</h1>
+                <h3>
+                   The Game that you Dreamed Of
+                </h3>
+          </div>
+
+        </section>
+
+        <section id="about"class="about">
+          <div class="pic">
+            <h1 class="mb-title" >ANIMAXION</h1>
+            <img class="profile-img" src="images/logo.png">
+          </div>
+            <div class="content-about">
+              <h1 class="title-about">About Us</h1>
+              <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+          <h1 class="pro_title" >PRODUCTS</h1>
+          <div class="products-content">
+            <div class="galleries">
+
+              <div class="row row2">
+                <div class="col-gallery col-md-4">
+                  <div id="thumb1" class="thumbnail">
+                    <a href="sales.html">
+                      <img class="darken-img img-responsive" src="images/game1.jpg" alt="Lights" style="width:100%">
+                      <div id="overlays1" class="overlays">
+                        <h2  style="font-weight:bold; font-size:30px;">BUY NOW</h2>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="sales.html">
+                      <img class="darken-img img-responsive" src="images/game2.jpg" alt="Nature" style="width:100%">
+                      <div class="overlays">
+                        <h2  style="font-weight:bold; font-size:30px;">BUY NOW</h2>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="sales.html">
+                      <img class="darken-img img-responsive"src="images/game4.png" alt="Fjords" style="width:100%">
+                      <div class="overlays">
+                        <h2  style="font-weight:bold; font-size:30px;">BUY NOW</h2>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            <section class="row2-galleries">
+              <div class="row">
+                <div class="col-gallery col-md-4">
+                  <div class="thumbnail">
+                    <a href="sales.html">
+                      <img class="darken-img img-responsive" src="images/game1.jpg" alt="Lights" style="width:100%">
+                      <div class="overlays">
+                        <h2  style="font-weight:bold; font-size:30px;">BUY NOW</h2>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="sales.html">
+                      <img class="darken-img img-responsive" src="images/game2.jpg" alt="Nature" style="width:100%">
+                      <div class="overlays">
+                        <h2  style="font-weight:bold; font-size:30px;">BUY NOW</h2>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <div class="wrap">
+                    <a href="sales.html">
+                      <img class="darken-img img-responsive"src="images/game4.png" alt="Fjords" style="width:100%">
+                      <div class="overlays">
+                        <h2  style="font-weight:bold; font-size:30px;">BUY NOW</h2>
+                      </div>
+                    </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </div>
+          </div>
+        </section>
+        
+        <section id="reviews" class="reviews">
+          <div class="reviews-content">
+            <div class="review-slider">
+              <div id="reviewcarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner review-carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="comment" src="https://entropia.qodeinteractive.com/wp-content/plugins/entropia-core/assets/img/testimonials-icon.png" class="d-block w-100" alt="...">
+                    <h1 class="comment-content">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h1>
+                    <p class="commenter">Ahmad Albab</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="comment" src="https://entropia.qodeinteractive.com/wp-content/plugins/entropia-core/assets/img/testimonials-icon.png" class="d-block w-100" alt="...">
+                    <h1 class="comment-content">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h1>
+                    <p class="commenter">Cik Munirah</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="comment" src="https://entropia.qodeinteractive.com/wp-content/plugins/entropia-core/assets/img/testimonials-icon.png" class="d-block w-100" alt="...">
+                    <h1 class="comment-content">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h1>
+                    <p class="commenter">Cik Kiah</p>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#reviewcarousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#reviewcarousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      <section id="overlay-foot" class="overlay-foot">
+        <div class="ovl">
+        </div>
+        <footer id="foot" class="foot">
+        <div class="footer-content">
+          <img class="logo-foot" src="images/logo.png">
+          <h1>ANIMAXION</h1>
+          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+          <ul class="icon-content">
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.github.com"><i class="fab fa-github"></i></a></li>
+          </ul>
+          <img class="animate" src="https://i.kym-cdn.com/photosimages/newsfeed/001/570/272/e33.gif">
+          <p>&copy 2020 Noor Raihan. All Rights Reserved</p>
+        </div>
+        </footer>
+      </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bo/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="bo/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+
+
+

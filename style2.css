@@ -1,0 +1,273 @@
+.main-ads {
+    background-image: url("https://i.pinimg.com/originals/a1/01/ec/a101ec37224ff9db1b54ebbc109d8662.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.ads-content {
+    display: flex;
+    margin-top: 0;
+}
+
+.covercd {
+    padding-top: 70px;
+}
+
+.cover-content {
+    margin-top: 5%;
+    width:30%;
+}
+
+.release {
+    font-weight: bold;
+}
+
+.border-bottom1 {
+    border-top: 10px solid rgb(255, 0, 221);
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 0;
+}
+
+.cdcontent {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.top-btn {
+    box-shadow: 2px 4px cyan;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 32px;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.top-btn:hover {
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    transition: all .2s;
+}
+
+.available1 {
+    margin-top: 60px;
+    height:20%;
+}
+
+.available2 {
+    margin-top: 20px;
+    height:20%;
+}
+.sneakpeek {
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.8);
+    padding-top: 50px;
+    text-shadow: 0px 0px 12px white;
+}
+.sneakpeek-content {
+    display: flex;
+}
+
+.sneak1, .sneak2, .sneak3{
+    padding: 20px;
+    padding-bottom: 20px;
+
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.s1, .s2, .s3{
+    border: 7px solid white;
+}
+.email {
+    text-align: center;
+    text-shadow: 0px 0px 12px white;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/images/glitchbg.jpg);
+}
+
+.titlsmail{
+    font-weight: bold; 
+    font-size: 60px; 
+    width:50%;
+}
+.e-content {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 0, 0);
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.subs input[type=text] {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid white;
+    color: white;
+    font-size: 30px;
+    outline: none;
+}
+
+.butonsub {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px cyan;
+    transition: all .2s;
+}
+
+.butonsub:hover {
+    box-shadow: 2px 2px 12px cyan;
+    transition: all .2s;
+}
+.top-picks {
+    background-image: url("images/bgor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top-picks-cont {
+    display: flex;
+    text-align: center;
+}
+
+.hot1, .hot2, .hot3, .hot4 {
+    padding: 30px;
+    transition: all .2s;
+}
+
+.imgh1, .imgh2, .imgh3, .imgh4 {
+    box-shadow: 0px 0px 10px black;
+    font-weight: bold;
+    filter: brightness(100%);
+}
+
+.hot1:hover, .hot2:hover, .hot3:hover, .hot4:hover, .imgh1 .imgh2 .imgh3 .imgh4 {
+    padding-top: 5px;
+    transition: all .2s;
+}
+
+.hotlink {
+    text-decoration: none;
+}
+
+.hottitle {
+    text-shadow: 0px 0px 12px white;
+}
+
+.subscription {
+    margin-top: 0px;
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    
+}
+
+.subscription-lay {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn-close {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width:600px) {
+
+    .ads-content {
+        display: block;
+    }
+
+    .cover-content {
+        margin-top: 0%;
+        width:100%;
+        padding: 30px;
+    }
+
+    .availablewrap {
+        width: 100%;
+        display: flex;
+        padding: 40px;
+    }
+
+    .available1 {
+        margin-top: 40px;
+        height:20%;
+    }
+    
+    .available2 {
+        margin-top: 40px;
+        height:20%;
+    }
+
+    .covercd {
+        align-items: center;
+        width: 100%;
+        padding: 60px;
+        padding-bottom: 10px;
+    }
+
+    .release {
+        font-weight: bold;
+    }
+    
+    .border-bottom1 {
+        margin-left: 0%;
+    }
+
+    .sneakpeek-content {
+        display: block;
+    }
+
+    .top-picks-cont {
+        display: block;
+    }
+
+    .titlsmail {
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .e-content {
+        font-size: 08vw;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px rgb(255, 0, 0);
+        width:100%;
+        padding-left:0;
+        padding-right: 0;
+    }
+
+    .subs input[type=text] {
+        font-size: 5vw;
+        
+    }
+
+    .subscription {
+        top:0;
+        display: none;
+    }
+
+    .subsform {
+        width: 300px;
+    }
+}
